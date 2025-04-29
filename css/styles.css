@@ -409,3 +409,55 @@ header {
 .juego:hover {
     transform: translateY(-10px);
 }
+/* Media Queries para diseño responsivo */
+@media (max-width: 768px) {
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner img {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .juegos-categoria {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .juego {
+        width: 90%;
+    }
+
+    .producto-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .producto-img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .cta-btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .categorias h2 {
+        font-size: 2rem;
+    }
+
+    .juegos-destacados h2 {
+        font-size: 24px;
+    }
+
+    .producto h2 {
+        font-size: 1.5rem;
+    }
+
+    .formulario-contacto {
+        max-width: 100%;
+    }
+}

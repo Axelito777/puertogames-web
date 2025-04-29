@@ -345,6 +345,17 @@ header {
     display: inline-block;
     margin-top: 10px;
 }
+.nuevo {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    display:inline-flex;
+    margin-top: 10px;
+}
+
 
 .btn-ver-producto:hover {
     background-color: #240046;
@@ -460,4 +471,56 @@ header {
     .formulario-contacto {
         max-width: 100%;
     }
+}
+.div1 {
+    background-color: #000000;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(204, 201, 201, 0.2);
+    width: 300px; /* define un ancho */
+    margin: 0 auto; /* centra horizontalmente */
+    background-position: center top;
+  }
+.h11{
+    color: #8f05f1;
+}
+.historia {
+    background: linear-gradient(to right, #acaaae, #ba8de4);
+    border-radius: 10px;
+    box-shadow: 0 20px 20px rgba(243, 239, 239, 0.2);
+    padding: 0.5rem; /* espacio interno */
+    color: #333;     /* mejora contraste con fondo claro */
+    line-height: 1.6; /* mejora legibilidad */
+  }
+.h21{
+    font-family: "Tagesschrift", system-ui;
+
+}
+
+.mision{
+    font-style: oblique;
+
+}
+.questions{
+    background-color: rgb(99, 96, 96);
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(204, 201, 201, 0.2);
+    display: inline-block;
+
+}
+.cta1 {
+    background-color: #04236b;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+.texto{
+    font-size: 20px;
+}
+.texto cta:hover{
+    text-decoration:dashed;
 }
